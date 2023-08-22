@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-12T14:37:13 IST" name="Suite" finished-at="2023-07-12T14:38:23 IST" duration-ms="69781">
+    <groups>
+    </groups>
+    <test started-at="2023-07-12T14:37:13 IST" name="Test" finished-at="2023-07-12T14:38:23 IST" duration-ms="69781">
+      <class name="com.springernature.qa.sanity.HomeTest">
+        <test-method is-config="true" signature="testbrowser()[pri:0, instance:com.springernature.qa.sanity.HomeTest@60099951]" started-at="2023-07-12T14:37:13 IST" name="testbrowser" finished-at="2023-07-12T14:37:24 IST" duration-ms="10972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbrowser -->
+        <test-method signature="checkhomepage()[pri:1, instance:com.springernature.qa.sanity.HomeTest@60099951]" started-at="2023-07-12T14:37:24 IST" name="checkhomepage" finished-at="2023-07-12T14:37:24 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkhomepage -->
+        <test-method signature="loadCA()[pri:2, instance:com.springernature.qa.sanity.HomeTest@60099951]" started-at="2023-07-12T14:37:24 IST" name="loadCA" finished-at="2023-07-12T14:37:30 IST" duration-ms="5286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadCA -->
+      </class> <!-- com.springernature.qa.sanity.HomeTest -->
+      <class name="com.springernature.qa.sanity.CTtest">
+        <test-method signature="checkCT()[pri:0, instance:com.springernature.qa.sanity.CTtest@63376bed]" started-at="2023-07-12T14:38:23 IST" name="checkCT" finished-at="2023-07-12T14:38:23 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.switchTo()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.switchTo()" because "this.driver" is null
+at com.springernature.qa.pages.HomePage.clickonCT(HomePage.java:79)
+at com.springernature.qa.sanity.CTtest.checkCT(CTtest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCT -->
+      </class> <!-- com.springernature.qa.sanity.CTtest -->
+      <class name="com.springernature.qa.sanity.CAtest">
+        <test-method signature="checkCA()[pri:0, instance:com.springernature.qa.sanity.CAtest@3c77d488]" started-at="2023-07-12T14:37:30 IST" name="checkCA" finished-at="2023-07-12T14:37:30 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCA -->
+        <test-method signature="shelf()[pri:1, instance:com.springernature.qa.sanity.CAtest@3c77d488]" started-at="2023-07-12T14:37:30 IST" name="shelf" finished-at="2023-07-12T14:37:41 IST" duration-ms="10781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shelf -->
+        <test-method signature="incoming()[pri:2, instance:com.springernature.qa.sanity.CAtest@3c77d488]" started-at="2023-07-12T14:37:41 IST" name="incoming" finished-at="2023-07-12T14:37:52 IST" duration-ms="10738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incoming -->
+        <test-method signature="query()[pri:3, instance:com.springernature.qa.sanity.CAtest@3c77d488]" started-at="2023-07-12T14:37:52 IST" name="query" finished-at="2023-07-12T14:38:02 IST" duration-ms="10738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- query -->
+        <test-method signature="QC()[pri:4, instance:com.springernature.qa.sanity.CAtest@3c77d488]" started-at="2023-07-12T14:38:02 IST" name="QC" finished-at="2023-07-12T14:38:13 IST" duration-ms="10750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QC -->
+        <test-method signature="ItemSearch()[pri:5, instance:com.springernature.qa.sanity.CAtest@3c77d488]" started-at="2023-07-12T14:38:13 IST" name="ItemSearch" finished-at="2023-07-12T14:38:22 IST" duration-ms="9017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemSearch -->
+        <test-method signature="CAclose()[pri:6, instance:com.springernature.qa.sanity.CAtest@3c77d488]" started-at="2023-07-12T14:38:22 IST" name="CAclose" finished-at="2023-07-12T14:38:23 IST" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CAclose -->
+      </class> <!-- com.springernature.qa.sanity.CAtest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
